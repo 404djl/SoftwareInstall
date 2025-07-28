@@ -64,6 +64,21 @@ sudo tee /etc/docker/daemon.json <<-'EOF'
 }
 EOF
 ```
+- 免费加速器
+  ```bash
+  {
+  "registry-mirrors": [
+    "https://2a6bf1988cb6428c877f723ec7530dbc.mirror.swr.myhuaweicloud.com",
+    "https://dockerpull.pw",
+    "https://hub.mirrorify.net",
+    "https://image.cloudlayer.icu",
+    "https://dockerproxy.net",
+    "https://hub.fast360.xyz",
+    "https://docker.1ms.run",
+    "https://hub1.nat.tf"
+  ]
+}
+```
 
 重启Docker服务:
 
